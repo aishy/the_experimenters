@@ -84,8 +84,9 @@ h3 {
 }
 
 
-.grid_12 p{
-     margin: 30px;
+#productboxes p {
+     padding: 30px;
+
 }
 
 q {
@@ -105,8 +106,7 @@ q {
 }
 
 .bio p {
-     margin-top: 34px;
-     margin-right: 30px;
+     padding: 25px;
 }
 
 
@@ -114,20 +114,9 @@ header {
 
 }
 
-footer {
-     background-color: #222222;
-     height: 50px;
-     color:#ccc;
-     margin-top: 50px;
-}
-
-footer a {
-     color:#ccc;
-}
-
 
 /*----------------------------------------------------------------------------- 
-=03 NAVIGATION 
+/* NAVIGATION 
 -----------------------------------------------------------------------------*/
 nav {
      background-color: #222222;
@@ -145,11 +134,24 @@ nav a {
 }
 
      nav a:hover {
-          text-decoration:none;
           color:#96DDFC;
      }
 
 
+/*----------------------------------------------------------------------------- 
+/* FOOTER 
+-----------------------------------------------------------------------------*/
+
+footer {
+     background-color: #222222;
+     height: 50px;
+     color:#ccc;
+     margin-top: 50px;
+}
+
+footer a {
+     color:#ccc;
+}
 
 
 
